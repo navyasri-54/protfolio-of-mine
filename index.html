@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Siddamsetti Navya Sri Maha Lakshmi — AI &amp; ML Engineer</title>
-<meta name="description" content="Portfolio of Siddamsetti Navya Sri Maha Lakshmi — AI & Machine Learning Engineer, Frontend Developer, Problem Solver." />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/animations.css">
-<link rel="stylesheet" href="css/responsive.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Siddamsetti Navya Sri Maha Lakshmi — AI &amp; ML Engineer</title>
+    <meta name="description" content="Portfolio of Siddamsetti Navya Sri Maha Lakshmi — AI & Machine Learning Engineer, Frontend Developer, Problem Solver." />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
+
 <body>
 
-<!-- ================= LOADER ================= -->
-<div id="loader" class="loader">
-  <div class="loader-inner">
-    <svg class="loader-logo" viewBox="0 0 100 100" width="80" height="80">
+    <!-- ================= LOADER ================= -->
+    <div id="loader" class="loader">
+        <div class="loader-inner">
+            <svg class="loader-logo" viewBox="0 0 100 100" width="80" height="80">
       <circle cx="50" cy="50" r="42" fill="none" stroke="url(#loaderGrad)" stroke-width="3" stroke-linecap="round" stroke-dasharray="264" stroke-dashoffset="264"/>
       <text x="50" y="58" text-anchor="middle" class="loader-initials">NS</text>
       <defs>
@@ -28,475 +30,469 @@
         </linearGradient>
       </defs>
     </svg>
-    <div class="loader-bar-track"><div class="loader-bar-fill" id="loaderFill"></div></div>
-    <p class="loader-text">assembling intelligence<span class="dots"><span>.</span><span>.</span><span>.</span></span></p>
-  </div>
-</div>
+            <div class="loader-bar-track">
+                <div class="loader-bar-fill" id="loaderFill"></div>
+            </div>
+            <p class="loader-text">assembling intelligence<span class="dots"><span>.</span><span>.</span><span>.</span></span>
+            </p>
+        </div>
+    </div>
 
-<!-- ================= CURSOR ================= -->
-<div class="cursor-dot" id="cursorDot"></div>
-<div class="cursor-ring" id="cursorRing"></div>
+    <!-- ================= CURSOR ================= -->
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing"></div>
 
-<!-- ================= BACKGROUND LAYERS ================= -->
-<div class="bg-layer">
-  <div class="aurora aurora-1"></div>
-  <div class="aurora aurora-2"></div>
-  <div class="aurora aurora-3"></div>
-  <div class="stars" id="stars"></div>
-  <canvas id="particles"></canvas>
-  <div class="grain"></div>
-</div>
+    <!-- ================= BACKGROUND LAYERS ================= -->
+    <div class="bg-layer">
+        <div class="aurora aurora-1"></div>
+        <div class="aurora aurora-2"></div>
+        <div class="aurora aurora-3"></div>
+        <div class="stars" id="stars"></div>
+        <canvas id="particles"></canvas>
+        <div class="grain"></div>
+    </div>
 
-<!-- ================= SCROLL PROGRESS ================= -->
-<div class="scroll-progress" id="scrollProgress"></div>
+    <!-- ================= SCROLL PROGRESS ================= -->
+    <div class="scroll-progress" id="scrollProgress"></div>
 
-<!-- ================= NAVBAR ================= -->
-<header class="navbar" id="navbar">
-  <div class="nav-inner">
-    <a href="#home" class="logo">NS<span class="logo-dot">.</span></a>
-    <nav class="nav-links" id="navLinks">
-      <a href="#home" class="nav-link active" data-section="home">Home</a>
-      <a href="#about" class="nav-link" data-section="about">About</a>
-      <a href="#skills" class="nav-link" data-section="skills">Skills</a>
-      <a href="#projects" class="nav-link" data-section="projects">Projects</a>
-      <a href="#experience" class="nav-link" data-section="experience">Experience</a>
-      <a href="#certificates" class="nav-link" data-section="certificates">Certificates</a>
-      <a href="#resume" class="nav-link" data-section="resume">Resume</a>
-      <a href="#contact" class="nav-link" data-section="contact">Contact</a>
-    </nav>
-    <button class="hamburger" id="hamburger" aria-label="Open menu">
+    <!-- ================= NAVBAR ================= -->
+    <header class="navbar" id="navbar">
+        <div class="nav-inner">
+            <a href="#home" class="logo">NS<span class="logo-dot">.</span></a>
+            <nav class="nav-links" id="navLinks">
+                <a href="#home" class="nav-link active" data-section="home">Home</a>
+                <a href="#about" class="nav-link" data-section="about">About</a>
+                <a href="#skills" class="nav-link" data-section="skills">Skills</a>
+                <a href="#projects" class="nav-link" data-section="projects">Projects</a>
+                <a href="#experience" class="nav-link" data-section="experience">Experience</a>
+                <a href="#certificates" class="nav-link" data-section="certificates">Certificates</a>
+                <a href="#resume" class="nav-link" data-section="resume">Resume</a>
+                <a href="#contact" class="nav-link" data-section="contact">Contact</a>
+            </nav>
+            <button class="hamburger" id="hamburger" aria-label="Open menu">
       <span></span><span></span><span></span>
     </button>
-  </div>
-</header>
+        </div>
+    </header>
 
-<div class="mobile-menu" id="mobileMenu">
-  <a href="#home" class="mobile-link" data-section="home">Home</a>
-  <a href="#about" class="mobile-link" data-section="about">About</a>
-  <a href="#skills" class="mobile-link" data-section="skills">Skills</a>
-  <a href="#projects" class="mobile-link" data-section="projects">Projects</a>
-  <a href="#experience" class="mobile-link" data-section="experience">Experience</a>
-  <a href="#certificates" class="mobile-link" data-section="certificates">Certificates</a>
-  <a href="#resume" class="mobile-link" data-section="resume">Resume</a>
-  <a href="#contact" class="mobile-link" data-section="contact">Contact</a>
-</div>
-
-<main>
-<!-- ================= HERO ================= -->
-<section id="home" class="hero">
-  <div class="hero-inner">
-    <div class="hero-text reveal-up">
-      <p class="eyebrow">Hey, I'm</p>
-      <h1 class="hero-name">Siddamsetti Navya Sri<br>Maha Lakshmi</h1>
-      <h2 class="hero-typing">
-        <span id="typedText"></span><span class="cursor-blink">|</span>
-      </h2>
-      <p class="hero-sub">Final-year AI &amp; ML engineer who turns rule-based logic and large language models into products people can actually use.</p>
-      <div class="hero-buttons">
-        <a href="assets/resume.pdf" download class="btn btn-primary magnetic">
-          <span>Download Resume</span>
-        </a>
-        <a href="#projects" class="btn btn-glass magnetic">
-          <span>View Projects</span>
-        </a>
-        <a href="#contact" class="btn btn-outline magnetic">
-          <span>Hire Me</span>
-        </a>
-      </div>
-      <div class="hero-socials">
-        <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="GitHub">
-          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
-        </a>
-        <a href="http://www.linkedin.com/in/navya-sri-maha-lakshmi-siddamasetti-b02441307" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="LinkedIn">
-          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.24 8.24h4.5V23H.24V8.24ZM8.5 8.24h4.31v2.01h.06c.6-1.1 2.06-2.26 4.24-2.26 4.53 0 5.37 2.87 5.37 6.6V23h-4.5v-6.7c0-1.6-.03-3.66-2.24-3.66-2.24 0-2.58 1.72-2.58 3.55V23H8.5V8.24Z"/></svg>
-        </a>
-        <a href="mailto:siddamsettinavya@gmail.com" class="social-icon magnetic" aria-label="Email">
-          <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm19.4 2.4-9.4 7-9.4-7L1.4 8l10.6 8 10.6-8-1.2-1.6Z" transform="translate(0 -0.2)"/><path fill="currentColor" d="M2 5.5 12 13 22 5.5V7l-10 7.5L2 7V5.5Z"/></svg>
-        </a>
-      </div>
+    <div class="mobile-menu" id="mobileMenu">
+        <a href="#home" class="mobile-link" data-section="home">Home</a>
+        <a href="#about" class="mobile-link" data-section="about">About</a>
+        <a href="#skills" class="mobile-link" data-section="skills">Skills</a>
+        <a href="#projects" class="mobile-link" data-section="projects">Projects</a>
+        <a href="#experience" class="mobile-link" data-section="experience">Experience</a>
+        <a href="#certificates" class="mobile-link" data-section="certificates">Certificates</a>
+        <a href="#resume" class="mobile-link" data-section="resume">Resume</a>
+        <a href="#contact" class="mobile-link" data-section="contact">Contact</a>
     </div>
 
-    <div class="hero-visual reveal-up" id="heroVisual">
-      <div class="orb-ring ring-1"></div>
-      <div class="orb-ring ring-2"></div>
-      <div class="orb-glow"></div>
-      <div class="profile-frame">
-        <img src="assets/images/profile.png" alt="Portrait of Siddamsetti Navya Sri Maha Lakshmi" class="profile-img">
-      </div>
-      <div class="float-badge badge-1">AI / ML</div>
-      <div class="float-badge badge-2">Frontend Dev</div>
-      <div class="float-badge badge-3">Prompt Eng.</div>
-    </div>
-  </div>
-  <a href="#about" class="scroll-hint magnetic" aria-label="Scroll down">
-    <span class="scroll-hint-line"></span>
-  </a>
-</section>
+    <main>
+        <!-- ================= HERO ================= -->
+        <section id="home" class="hero">
+            <div class="hero-inner">
+                <div class="hero-text reveal-up">
+                    <p class="eyebrow">Hey, I'm</p>
+                    <h1 class="hero-name">Siddamsetti Navya Sri<br>Maha Lakshmi</h1>
+                    <h2 class="hero-typing">
+                        <span id="typedText"></span><span class="cursor-blink">|</span>
+                    </h2>
+                    <p class="hero-sub">Final-year AI &amp; ML engineer who turns rule-based logic and large language models into products people can actually use.</p>
+                    <div class="hero-buttons">
+                        <a href="assets/resume.pdf" download class="btn btn-primary magnetic">
+                            <span>Download Resume</span>
+                        </a>
+                        <a href="#projects" class="btn btn-glass magnetic">
+                            <span>View Projects</span>
+                        </a>
+                        <a href="#contact" class="btn btn-outline magnetic">
+                            <span>Hire Me</span>
+                        </a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="GitHub">
+                            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+                        </a>
+                        <a href="http://www.linkedin.com/in/navya-sri-maha-lakshmi-siddamasetti-b02441307" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="LinkedIn">
+                            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.24 8.24h4.5V23H.24V8.24ZM8.5 8.24h4.31v2.01h.06c.6-1.1 2.06-2.26 4.24-2.26 4.53 0 5.37 2.87 5.37 6.6V23h-4.5v-6.7c0-1.6-.03-3.66-2.24-3.66-2.24 0-2.58 1.72-2.58 3.55V23H8.5V8.24Z"/></svg>
+                        </a>
+                        <a href="mailto:siddamsettinavya@gmail.com" class="social-icon magnetic" aria-label="Email">
+                            <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M2 4h20a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V5a1 1 0 0 1 1-1Zm19.4 2.4-9.4 7-9.4-7L1.4 8l10.6 8 10.6-8-1.2-1.6Z" transform="translate(0 -0.2)"/><path fill="currentColor" d="M2 5.5 12 13 22 5.5V7l-10 7.5L2 7V5.5Z"/></svg>
+                        </a>
+                    </div>
+                </div>
 
-<!-- ================= ABOUT ================= -->
-<section id="about" class="section">
-  <div class="section-inner">
-    <p class="eyebrow reveal-up">About</p>
-    <h2 class="section-title reveal-up">Building at the edge of logic and language</h2>
-    <div class="about-grid">
-      <p class="about-text reveal-up">
-        I'm a final-year B.Tech student in Artificial Intelligence &amp; Machine Learning at ISTS Women's Engineering College,
-        graduating in 2027. My work sits between two worlds — the deterministic precision of rule-based systems and the
-        open-ended reasoning of modern LLMs — and I care most about the interface where a person meets that intelligence.
-        Outside of models, I build the frontends that carry them: clean HTML, considered CSS, and JavaScript that doesn't
-        get in the way. My goal is simple — become an AI engineer building intelligent products people genuinely rely on.
-      </p>
-      <div class="about-stats reveal-up">
-        <div class="stat-card">
-          <span class="stat-num" data-count="4">0</span>
-          <span class="stat-label">Projects Built</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" data-count="4">0</span>
-          <span class="stat-label">Certificates</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" data-count="8.3" data-decimal="1">0</span>
-          <span class="stat-label">CGPA</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-num" data-count="2027">0</span>
-          <span class="stat-label">Graduating</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+                <div class="hero-visual reveal-up" id="heroVisual">
+                    <div class="orb-ring ring-1"></div>
+                    <div class="orb-ring ring-2"></div>
+                    <div class="orb-glow"></div>
+                    <div class="profile-frame">
+                        <img src="assets/images/profile.png" alt="Portrait of Siddamsetti Navya Sri Maha Lakshmi" class="profile-img">
+                    </div>
+                    <div class="float-badge badge-1">AI / ML</div>
+                    <div class="float-badge badge-2">Frontend Dev</div>
+                    <div class="float-badge badge-3">Prompt Eng.</div>
+                </div>
+            </div>
+            <a href="#about" class="scroll-hint magnetic" aria-label="Scroll down">
+                <span class="scroll-hint-line"></span>
+            </a>
+        </section>
 
-<!-- ================= SKILLS ================= -->
-<section id="skills" class="section">
-  <div class="section-inner">
-    <p class="eyebrow reveal-up">Skills</p>
-    <h2 class="section-title reveal-up">Tools I reach for</h2>
+        <!-- ================= ABOUT ================= -->
+        <section id="about" class="section">
+            <div class="section-inner">
+                <p class="eyebrow reveal-up">About</p>
+                <h2 class="section-title reveal-up">Building at the edge of logic and language</h2>
+                <div class="about-grid">
+                    <p class="about-text reveal-up">
+                        I'm a final-year B.Tech student in Artificial Intelligence &amp; Machine Learning at ISTS Women's Engineering College, graduating in 2027. My work sits between two worlds — the deterministic precision of rule-based systems and the open-ended reasoning
+                        of modern LLMs — and I care most about the interface where a person meets that intelligence. Outside of models, I build the frontends that carry them: clean HTML, considered CSS, and JavaScript that doesn't get in the way. My goal
+                        is simple — become an AI engineer building intelligent products people genuinely rely on.
+                    </p>
+                    <div class="about-stats reveal-up">
+                        <div class="stat-card">
+                            <span class="stat-num" data-count="4">0</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-count="4">0</span>
+                            <span class="stat-label">Certificates</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-count="8.3" data-decimal="1">0</span>
+                            <span class="stat-label">CGPA</span>
+                        </div>
+                        <div class="stat-card">
+                            <span class="stat-num" data-count="2027">0</span>
+                            <span class="stat-label">Graduating</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="skills-groups">
-      <div class="skill-group reveal-up">
-        <h3 class="skill-group-title">Frontend</h3>
-        <div class="skill-cards">
-          <div class="skill-card tilt" data-level="88"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">88%</span></div><p>HTML5</p></div>
-          <div class="skill-card tilt" data-level="85"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">85%</span></div><p>CSS3</p></div>
-          <div class="skill-card tilt" data-level="78"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">78%</span></div><p>JavaScript</p></div>
-        </div>
-      </div>
+        <!-- ================= SKILLS ================= -->
+        <section id="skills" class="section">
+            <div class="section-inner">
+                <p class="eyebrow reveal-up">Skills</p>
+                <h2 class="section-title reveal-up">Tools I reach for</h2>
 
-      <div class="skill-group reveal-up">
-        <h3 class="skill-group-title">Backend</h3>
-        <div class="skill-cards">
-          <div class="skill-card tilt" data-level="82"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">82%</span></div><p>Python</p></div>
-          <div class="skill-card tilt" data-level="60"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">60%</span></div><p>Node.js</p></div>
-          <div class="skill-card tilt" data-level="80"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">80%</span></div><p>SQL</p></div>
-        </div>
-      </div>
+                <div class="skills-groups">
+                    <div class="skill-group reveal-up">
+                        <h3 class="skill-group-title">Frontend</h3>
+                        <div class="skill-cards">
+                            <div class="skill-card tilt" data-level="88">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">88%</span></div>
+                                <p>HTML5</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="85">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">85%</span></div>
+                                <p>CSS3</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="78">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">78%</span></div>
+                                <p>JavaScript</p>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="skill-group reveal-up">
-        <h3 class="skill-group-title">AI</h3>
-        <div class="skill-cards">
-          <div class="skill-card tilt" data-level="86"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">86%</span></div><p>Machine Learning</p></div>
-          <div class="skill-card tilt" data-level="90"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">90%</span></div><p>Prompt Engineering</p></div>
-          <div class="skill-card tilt" data-level="84"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">84%</span></div><p>LLM Applications &amp; AI Agents</p></div>
-        </div>
-      </div>
+                    <div class="skill-group reveal-up">
+                        <h3 class="skill-group-title">Backend</h3>
+                        <div class="skill-cards">
+                            <div class="skill-card tilt" data-level="82">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">82%</span></div>
+                                <p>Python</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="60">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">60%</span></div>
+                                <p>Node.js</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="80">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">80%</span></div>
+                                <p>SQL</p>
+                            </div>
+                        </div>
+                    </div>
 
-      <div class="skill-group reveal-up">
-        <h3 class="skill-group-title">Cloud &amp; Tools</h3>
-        <div class="skill-cards">
-          <div class="skill-card tilt" data-level="70"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">70%</span></div><p>Google Cloud</p></div>
-          <div class="skill-card tilt" data-level="75"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">75%</span></div><p>Firebase</p></div>
-          <div class="skill-card tilt" data-level="88"><div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">88%</span></div><p>Git &amp; GitHub</p></div>
-        </div>
-      </div>
-    </div>
+                    <div class="skill-group reveal-up">
+                        <h3 class="skill-group-title">AI</h3>
+                        <div class="skill-cards">
+                            <div class="skill-card tilt" data-level="86">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">86%</span></div>
+                                <p>Machine Learning</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="90">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">90%</span></div>
+                                <p>Prompt Engineering</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="84">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">84%</span></div>
+                                <p>LLM Applications &amp; AI Agents</p>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="marquee-wrap reveal-up">
-      <div class="marquee-track">
-        <span>VS Code</span><span>Cursor AI</span><span>Bolt.new</span><span>Base44</span><span>ChatGPT</span><span>Claude</span><span>Gemini</span><span>Context.dev</span>
-        <span>VS Code</span><span>Cursor AI</span><span>Bolt.new</span><span>Base44</span><span>ChatGPT</span><span>Claude</span><span>Gemini</span><span>Context.dev</span>
-      </div>
-    </div>
-  </div>
-</section>
+                    <div class="skill-group reveal-up">
+                        <h3 class="skill-group-title">Cloud &amp; Tools</h3>
+                        <div class="skill-cards">
+                            <div class="skill-card tilt" data-level="70">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">70%</span></div>
+                                <p>Google Cloud</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="75">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">75%</span></div>
+                                <p>Firebase</p>
+                            </div>
+                            <div class="skill-card tilt" data-level="88">
+                                <div class="ring"><svg viewBox="0 0 80 80"><circle class="ring-bg" cx="40" cy="40" r="34"/><circle class="ring-fg" cx="40" cy="40" r="34"/></svg><span class="ring-val">88%</span></div>
+                                <p>Git &amp; GitHub</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-<!-- ================= PROJECTS ================= -->
-<section id="projects" class="section">
-  <div class="section-inner">
-    <p class="eyebrow reveal-up">Projects</p>
-    <h2 class="section-title reveal-up">Selected work</h2>
+                <div class="marquee-wrap reveal-up">
+                    <div class="marquee-track">
+                        <span>VS Code</span><span>Cursor AI</span><span>Bolt.new</span><span>Base44</span><span>ChatGPT</span><span>Claude</span><span>Gemini</span><span>Context.dev</span>
+                        <span>VS Code</span><span>Cursor AI</span><span>Bolt.new</span><span>Base44</span><span>ChatGPT</span><span>Claude</span><span>Gemini</span><span>Context.dev</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-    <div class="project-filters reveal-up">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="ai">AI</button>
-      <button class="filter-btn" data-filter="web">Web</button>
-    </div>
+        <!-- ================= PROJECTS ================= -->
+        <section id="projects" class="section">
+            <div class="section-inner">
+                <p class="eyebrow reveal-up">Projects</p>
+                <h2 class="section-title reveal-up">Selected work</h2>
 
-    <div class="projects-grid">
-      <article class="project-card tilt reveal-up" data-cat="ai">
-        <div class="project-glow"></div>
-        <div class="project-body">
-          <h3>AI Evolution Platform</h3>
-          <p>An interactive timeline tracing the arc of AI — from rule-based systems and classical ML through deep learning, foundation models, LLMs, RAG, AI agents and multi-agent systems, to where the field is heading next.</p>
-          <div class="badges">
-            <span>HTML</span><span>CSS</span><span>JS</span><span>Python</span><span>OpenAI</span><span>Firebase</span>
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
-          <a href="#" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
-        </div>
-      </article>
+                <div class="project-filters reveal-up">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="ai">AI</button>
+                    <button class="filter-btn" data-filter="web">Web</button>
+                </div>
 
-      <article class="project-card tilt reveal-up" data-cat="ai">
-        <div class="project-glow"></div>
-        <div class="project-body">
-          <h3>Rule-Based Expert System</h3>
-          <p>A knowledge-driven advisor spanning medical, career and student-guidance domains — over 100 IF–ELSE rules backed by a structured knowledge base and a custom inference engine.</p>
-          <div class="badges">
-            <span>Python</span><span>Knowledge Base</span><span>Inference Engine</span>
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
-          <a href="#" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
-        </div>
-      </article>
+                <div class="project-grid">
+                    <article class="project-card tilt reveal-up" data-cat="web">
+                        <div class="project-glow"></div>
+                        <div class="project-body">
+                            <h3>AI Portfolio Website</h3>
+                            <p>This site — a futuristic, glass-UI portfolio built from scratch with vanilla HTML, CSS and JavaScript, fully animated and fully responsive.</p>
+                            <div class="badges">
+                                <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/navyasri-54/protfolio-of-mine" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
+                            <a href="https://protfolio-of-mine.vercel.app/" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
+                        </div>
+                    </article>
 
-      <article class="project-card tilt reveal-up" data-cat="web">
-        <div class="project-glow"></div>
-        <div class="project-body">
-          <h3>AI Portfolio Website</h3>
-          <p>This site — a futuristic, glass-UI portfolio built from scratch with vanilla HTML, CSS and JavaScript, fully animated and fully responsive.</p>
-          <div class="badges">
-            <span>HTML5</span><span>CSS3</span><span>JavaScript</span>
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
-          <a href="#" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
-        </div>
-      </article>
 
-      <article class="project-card tilt reveal-up" data-cat="ai">
-        <div class="project-glow"></div>
-        <div class="project-body">
-          <h3>One Input → Any Output AI</h3>
-          <p>A concept interface for the next generation of AI tools: accept text, voice, image or video as input, and produce whatever intelligent output the task calls for.</p>
-          <div class="badges">
-            <span>Multi-modal</span><span>AI Agents</span><span>Future Interface</span>
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
-          <a href="#" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
-        </div>
-      </article>
 
-      <article class="project-card tilt reveal-up" data-cat="ai">
-        <div class="project-glow"></div>
-        <div class="project-body">
-          <h3>Persona AI</h3>
-          <p>An AI system that gives people personalised, practical suggestions to improve their personal appearance and styling.</p>
-          <div class="badges">
-            <span>AI</span><span>Prompt Engineering</span>
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
-          <a href="#" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
-        </div>
-      </article>
+                    <article class="project-card tilt reveal-up" data-cat="ai">
+                        <div class="project-glow"></div>
+                        <div class="project-body">
+                            <h3>Persona AI</h3>
+                            <p>An AI system that gives people personalised, practical suggestions to improve their personal appearance and styling.</p>
+                            <div class="badges">
+                                <span>AI</span><span>Prompt Engineering</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
+                            <a href="https://vagabond-define-your-persona.base44.app/" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
+                        </div>
+                    </article>
 
-      <article class="project-card tilt reveal-up" data-cat="ai">
-        <div class="project-glow"></div>
-        <div class="project-body">
-          <h3>Deep Scope AI</h3>
-          <p>An AI-powered research intelligence platform that turns complex research questions into comprehensive, evidence-based reports within seconds.</p>
-          <div class="badges">
-            <span>AI Agents</span><span>LLM Applications</span>
-          </div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
-          <a href="#" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
-        </div>
-      </article>
-    </div>
-  </div>
-</section>
+                    <article class="project-card tilt reveal-up" data-cat="ai">
+                        <div class="project-glow"></div>
+                        <div class="project-body">
+                            <h3>Deep Scope AI</h3>
+                            <p>An AI-powered research intelligence platform that turns complex research questions into comprehensive, evidence-based reports within seconds.</p>
+                            <div class="badges">
+                                <span>AI Agents</span><span>LLM Applications</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/navyasri-54/-deepscope-ai" target="_blank" rel="noopener" class="btn-sm magnetic">GitHub</a>
+                            <a href="https://deepscope-ai.vercel.app/" class="btn-sm btn-sm-outline magnetic">Live Demo</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
 
-<!-- ================= EXPERIENCE ================= -->
-<section id="experience" class="section">
-  <div class="section-inner">
-    <p class="eyebrow reveal-up">Experience</p>
-    <h2 class="section-title reveal-up">Timeline</h2>
+        <!-- ================= EXPERIENCE ================= -->
+        <section id="experience" class="section">
+            <div class="section-inner">
+                <p class="eyebrow reveal-up">Experience</p>
+                <h2 class="section-title reveal-up">Timeline</h2>
 
-    <div class="timeline">
-      <div class="timeline-item reveal-up">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-year">2023 — Present</span>
-          <h3>B.Tech, AI &amp; Machine Learning</h3>
-          <p>International School of Technology and Sciences for Women · Expected graduation 2027 · CGPA 8.3</p>
-        </div>
-      </div>
-      <div class="timeline-item reveal-up">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-year">Ongoing</span>
-          <h3>AI Projects &amp; Prompt Engineering</h3>
-          <p>Building rule-based systems, LLM-powered applications and AI agents — Persona AI, Deep Scope AI and the AI Evolution Platform.</p>
-        </div>
-      </div>
-      <div class="timeline-item reveal-up">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-year">Ongoing</span>
-          <h3>Hackathons &amp; Open Source</h3>
-          <p>Participating in GenAI hackathons and camps, sharpening practical skills in AI-assisted development and modern web technology.</p>
-        </div>
-      </div>
-      <div class="timeline-item reveal-up">
-        <div class="timeline-dot"></div>
-        <div class="timeline-content">
-          <span class="timeline-year">Completed</span>
-          <h3>Intermediate (MPC)</h3>
-          <p>Aditya Junior College, Mandapeta · 90.1%</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
+                <div class="timeline">
+                    <div class="timeline-item reveal-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">2023 — Present</span>
+                            <h3>B.Tech, AI &amp; Machine Learning</h3>
+                            <p>International School of Technology and Sciences for Women · Expected graduation 2027 · CGPA 8.3</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">Ongoing</span>
+                            <h3>AI Projects &amp; Prompt Engineering</h3>
+                            <p>Building rule-based systems, LLM-powered applications and AI agents — Persona AI, Deep Scope AI and the AI Evolution Platform.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">Ongoing</span>
+                            <h3>Hackathons &amp; Open Source</h3>
+                            <p>Participating in GenAI hackathons and camps, sharpening practical skills in AI-assisted development and modern web technology.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item reveal-up">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <span class="timeline-year">Completed</span>
+                            <h3>Intermediate (MPC)</h3>
+                            <p>Aditya Junior College, Mandapeta · 90.1%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- ================= CERTIFICATES ================= -->
-<section id="certificates" class="section">
-  <div class="section-inner">
-    <p class="eyebrow reveal-up">Certificates</p>
-    <h2 class="section-title reveal-up">Continuous learning</h2>
-    <div class="cert-grid">
-      <div class="cert-card reveal-up">
-        <div class="cert-icon">◈</div>
-        <h3>AI Fundamentals</h3>
-        <p>IBM SkillsBuild</p>
-      </div>
-      <div class="cert-card reveal-up">
-        <div class="cert-icon">◈</div>
-        <h3>Introduction to Cyber Security</h3>
-        <p>NPTEL</p>
-      </div>
-      <div class="cert-card reveal-up">
-        <div class="cert-icon">◈</div>
-        <h3>Prompt Engineering</h3>
-        <p>SimplyLearn</p>
-      </div>
-      <div class="cert-card reveal-up">
-        <div class="cert-icon">◈</div>
-        <h3>GEN-AI Camp</h3>
-        <p>Algo University</p>
-      </div>
-    </div>
+        <!-- ================= CERTIFICATES ================= -->
+        <section id="certificates" class="section">
+            <div class="section-inner">
+                <p class="eyebrow reveal-up">Certificates</p>
+                <h2 class="section-title reveal-up">Continuous learning</h2>
+                <div class="cert-grid">
+                    <div class="cert-card reveal-up">
+                        <div class="cert-icon">◈</div>
+                        <h3>AI Fundamentals</h3>
+                        <p>IBM SkillsBuild</p>
+                    </div>
+                    <div class="cert-card reveal-up">
+                        <div class="cert-icon">◈</div>
+                        <h3>Introduction to Cyber Security</h3>
+                        <p>NPTEL</p>
+                    </div>
+                    <div class="cert-card reveal-up">
+                        <div class="cert-icon">◈</div>
+                        <h3>Prompt Engineering</h3>
+                        <p>SimplyLearn</p>
+                    </div>
+                    <div class="cert-card reveal-up">
+                        <div class="cert-icon">◈</div>
+                        <h3>GEN-AI Camp</h3>
+                        <p>Algo University</p>
+                    </div>
+                </div>
 
-    <div class="achievements reveal-up">
-      <h3 class="achievements-title">Achievements &amp; Badges</h3>
-      <div class="badge-row">
-        <span class="pill">GenAI: Beyond the Chatbot</span>
-        <span class="pill">MLOps for Generative AI</span>
-        <span class="pill">Prepare Data for ML APIs on Google Cloud</span>
-      </div>
-    </div>
-  </div>
-</section>
+                <div class="achievements reveal-up">
+                    <h3 class="achievements-title">Achievements &amp; Badges</h3>
+                    <div class="badge-row">
+                        <span class="pill">GenAI: Beyond the Chatbot</span>
+                        <span class="pill">MLOps for Generative AI</span>
+                        <span class="pill">Prepare Data for ML APIs on Google Cloud</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<!-- ================= RESUME ================= -->
-<section id="resume" class="section">
-  <div class="section-inner narrow">
-    <p class="eyebrow reveal-up">Resume</p>
-    <h2 class="section-title reveal-up">Take a copy with you</h2>
-    <div class="resume-card reveal-up">
-      <div class="resume-icon">
-        <svg viewBox="0 0 24 24" width="42" height="42"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Zm0 1.5L19.5 9H15a1 1 0 0 1-1-1V3.5ZM8 13h8v1.5H8V13Zm0 3h8v1.5H8V16Zm0-6h4v1.5H8V10Z"/></svg>
-      </div>
-      <div class="resume-info">
-        <h3>Siddamsetti_Navya_Sri_Resume.pdf</h3>
-        <p>Full academic background, technical skills, projects and certifications.</p>
-      </div>
-      <a href="assets/resume.pdf" download class="btn btn-primary magnetic">Download Resume</a>
-    </div>
-  </div>
-</section>
+        <!-- ================= RESUME ================= -->
+        <section id="resume" class="section">
+            <div class="section-inner narrow">
+                <p class="eyebrow reveal-up">Resume</p>
+                <h2 class="section-title reveal-up">Take a copy with you</h2>
+                <div class="resume-card reveal-up">
+                    <div class="resume-icon">
+                        <svg viewBox="0 0 24 24" width="42" height="42"><path fill="currentColor" d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Zm0 1.5L19.5 9H15a1 1 0 0 1-1-1V3.5ZM8 13h8v1.5H8V13Zm0 3h8v1.5H8V16Zm0-6h4v1.5H8V10Z"/></svg>
+                    </div>
+                    <div class="resume-info">
+                        <h3>Siddamsetti_Navya_Sri_Resume.pdf</h3>
+                        <p>Full academic background, technical skills, projects and certifications.</p>
+                    </div>
+                    <a href="assets/resume.pdf" download class="btn btn-primary magnetic">Download Resume</a>
+                </div>
+            </div>
+        </section>
 
-<!-- ================= CONTACT ================= -->
-<section id="contact" class="section">
-  <div class="section-inner">
-    <p class="eyebrow reveal-up">Contact</p>
-    <h2 class="section-title reveal-up">Let's build something intelligent</h2>
+        <!-- ================= CONTACT ================= -->
+        <section id="contact" class="section">
+            <div class="section-inner">
+                <p class="eyebrow reveal-up">Contact</p>
+                <h2 class="section-title reveal-up">Let's build something intelligent</h2>
 
-    <div class="contact-grid">
-      <form class="contact-form reveal-up" id="contactForm" novalidate>
-        <div class="form-row">
-          <div class="field">
-            <input type="text" id="name" name="name" required>
-            <label for="name">Name</label>
-            <span class="field-error" id="nameError"></span>
-          </div>
-          <div class="field">
-            <input type="email" id="email" name="email" required>
-            <label for="email">Email</label>
-            <span class="field-error" id="emailError"></span>
-          </div>
-        </div>
-        <div class="field">
-          <input type="text" id="subject" name="subject" required>
-          <label for="subject">Subject</label>
-          <span class="field-error" id="subjectError"></span>
-        </div>
-        <div class="field">
-          <textarea id="message" name="message" rows="5" required></textarea>
-          <label for="message">Message</label>
-          <span class="field-error" id="messageError"></span>
-        </div>
-        <button type="submit" class="btn btn-primary send-btn magnetic" id="sendBtn">
+                <div class="contact-grid">
+                    <form class="contact-form reveal-up" id="contactForm" novalidate>
+                        <div class="form-row">
+                            <div class="field">
+                                <input type="text" id="name" name="name" required>
+                                <label for="name">Name</label>
+                                <span class="field-error" id="nameError"></span>
+                            </div>
+                            <div class="field">
+                                <input type="email" id="email" name="email" required>
+                                <label for="email">Email</label>
+                                <span class="field-error" id="emailError"></span>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" id="subject" name="subject" required>
+                            <label for="subject">Subject</label>
+                            <span class="field-error" id="subjectError"></span>
+                        </div>
+                        <div class="field">
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                            <label for="message">Message</label>
+                            <span class="field-error" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary send-btn magnetic" id="sendBtn">
           <span class="send-text">Send Message</span>
           <span class="send-icon">➤</span>
         </button>
-        <p class="form-success" id="formSuccess">Message ready — thank you! Your email app should open shortly.</p>
-      </form>
+                        <p class="form-success" id="formSuccess">Message ready — thank you! Your email app should open shortly.</p>
+                    </form>
 
-      <div class="contact-info reveal-up">
-        <div class="info-item">
-          <span class="info-label">Email</span>
-          <a href="mailto:siddamsettinavya@gmail.com">siddamsettinavya@gmail.com</a>
-        </div>
-        <div class="info-item">
-          <span class="info-label">Phone</span>
-          <a href="tel:+918074003700">+91 80740 03700</a>
-        </div>
-        <div class="info-item">
-          <span class="info-label">Location</span>
-          <span>Angara, Andhra Pradesh, India</span>
-        </div>
-        <div class="info-item">
-          <span class="info-label">Elsewhere</span>
-          <div class="hero-socials">
-            <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="GitHub">
-              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
-            </a>
-            <a href="http://www.linkedin.com/in/navya-sri-maha-lakshmi-siddamasetti-b02441307" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="LinkedIn">
-              <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.24 8.24h4.5V23H.24V8.24ZM8.5 8.24h4.31v2.01h.06c.6-1.1 2.06-2.26 4.24-2.26 4.53 0 5.37 2.87 5.37 6.6V23h-4.5v-6.7c0-1.6-.03-3.66-2.24-3.66-2.24 0-2.58 1.72-2.58 3.55V23H8.5V8.24Z"/></svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-</main>
+                    <div class="contact-info reveal-up">
+                        <div class="info-item">
+                            <span class="info-label">Email</span>
+                            <a href="mailto:siddamsettinavya@gmail.com">siddamsettinavya@gmail.com</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Phone</span>
+                            <a href="tel:+918074003700">+91 80740 03700</a>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Location</span>
+                            <span>Angara, Andhra Pradesh, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-label">Elsewhere</span>
+                            <div class="hero-socials">
+                                <a href="https://github.com/navyasri-54/" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="GitHub">
+                                    <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.38 7.86 10.9.57.1.78-.25.78-.55v-2.1c-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.69-1.28-1.69-1.04-.72.08-.7.08-.7 1.15.08 1.76 1.18 1.76 1.18 1.03 1.75 2.7 1.25 3.36.96.1-.75.4-1.25.72-1.54-2.56-.29-5.26-1.28-5.26-5.7 0-1.26.45-2.29 1.18-3.1-.12-.29-.51-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.24 2.76.12 3.05.74.81 1.18 1.84 1.18 3.1 0 4.43-2.7 5.4-5.28 5.69.42.36.78 1.08.78 2.18v3.23c0 .3.2.66.79.55A10.52 10.52 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+                                </a>
+                                <a href="http://www.linkedin.com/in/navya-sri-maha-lakshmi-siddamasetti-b02441307" target="_blank" rel="noopener" class="social-icon magnetic" aria-label="LinkedIn">
+                                    <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.12 1 2.5 1s2.48 1.12 2.48 2.5ZM.24 8.24h4.5V23H.24V8.24ZM8.5 8.24h4.31v2.01h.06c.6-1.1 2.06-2.26 4.24-2.26 4.53 0 5.37 2.87 5.37 6.6V23h-4.5v-6.7c0-1.6-.03-3.66-2.24-3.66-2.24 0-2.58 1.72-2.58 3.55V23H8.5V8.24Z"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
 
-<!-- ================= FOOTER ================= -->
-<footer class="footer">
-  <svg class="footer-wave" viewBox="0 0 1200 80" preserveAspectRatio="none">
+    <!-- ================= FOOTER ================= -->
+    <footer class="footer">
+        <svg class="footer-wave" viewBox="0 0 1200 80" preserveAspectRatio="none">
     <path d="M0,40 C300,90 900,-10 1200,40 L1200,80 L0,80 Z" fill="url(#waveGrad)"/>
     <defs>
       <linearGradient id="waveGrad" x1="0" y1="0" x2="1" y2="0">
@@ -506,15 +502,16 @@
       </linearGradient>
     </defs>
   </svg>
-  <div class="footer-inner">
-    <p>&copy; <span id="year"></span> Siddamsetti Navya Sri Maha Lakshmi. All rights reserved.</p>
-    <button class="back-to-top magnetic" id="backToTop" aria-label="Back to top">↑</button>
-  </div>
-</footer>
+        <div class="footer-inner">
+            <p>&copy; <span id="year"></span> Siddamsetti Navya Sri Maha Lakshmi. All rights reserved.</p>
+            <button class="back-to-top magnetic" id="backToTop" aria-label="Back to top">↑</button>
+        </div>
+    </footer>
 
-<script src="js/particles.js"></script>
-<script src="js/cursor.js"></script>
-<script src="js/animations.js"></script>
-<script src="js/app.js"></script>
+    <script src="js/particles.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
 </body>
+
 </html>
